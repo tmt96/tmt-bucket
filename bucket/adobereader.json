@@ -1,0 +1,29 @@
+{
+    "version": "2020.009.20063",
+    "description": "Adobe Reader. Global standard for reliably viewing, printing, and commenting on PDF documents.",
+    "homepage": "https://get.adobe.com/reader/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.adobe.com/content/dam/cc/en/legal/licenses-terms/pdf/PlatformClients_PC_WWEULA-en_US-20200601_1357.pdf"
+    },
+    "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/1901020064/AcroRdrDC1901020064_en_US.exe#/cosi.7z",
+    "extract_to": "",
+    "hash": "0d0ebe29b5eb22d66d27d0d81d74bcaea5eaab3b1471ca61d1062be44a0ab44b",
+    "installer": {
+        "script": [
+            "Expand-MsiArchive \"$dir\\AcroRead.msi\" -DestinationPath \"$dir\"", 
+            "Move-Item \"$dir\\program files\\Adobe\\Acrobat Reader DC\\*\" $dir -Force"
+        ]
+    },
+    "shortcuts": [
+        [
+            "Reader\\AcroRd32.exe",
+            "Adobe Acrobat DC"
+        ]
+    ],
+    "bin": ["Reader\\AcroRd32.exe"],
+    "checkver": "Version\\s+\\d{4}",
+    "autoupdate": {
+        "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/1901020064/AcroRdrDC$cleanVersion_en_US.exe#/cosi.7z"
+    }
+}
