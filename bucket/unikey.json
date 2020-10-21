@@ -8,11 +8,11 @@
     "architecture": {
         "64bit": {
             "url": "https://sourceforge.net/projects/unikey/files/unikey-win/4.3%20RC5/unikey43RC5-200929-win64.zip",
-            "hash": "4a6a06ea7c3d9ca9603a54050f010a63be48ea90c7a5299f6d18ec1789c40c23"
+            "hash": "sha1:ade4b159ffd7d2944e576ab1079e3232ab65c264"
         },
         "32bit": {
             "url": "https://sourceforge.net/projects/unikey/files/unikey-win/4.3%20RC5/unikey43RC5-200929-win32.zip",
-            "hash": "930d8792166ad216db22701f5b5f407076817784c5d8ba1e3ff5383f77efadb4 "
+            "hash": "sha1:554f2f6ee30c35ef1b42fa68a6961506bc0e15fe "
         }
     },  
     "extract_to": "",
