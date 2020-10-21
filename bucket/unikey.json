@@ -1,17 +1,17 @@
 {
     "homepage": "https://www.unikey.org",
-    "version": "4.3-RC4",
+    "version": "4.3-RC5",
     "description": "UniKey is the most popular Vietnamese keyboard for Windows.",
     "license": {
         "identifier": "GPL-3.0-or-later"
     },
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/unikey/files/unikey-win/4.3%20RC4/unikey43RC4-180714-win64.zip",
+            "url": "https://sourceforge.net/projects/unikey/files/unikey-win/4.3%20RC5/unikey43RC5-200929-win64.zip",
             "hash": "4a6a06ea7c3d9ca9603a54050f010a63be48ea90c7a5299f6d18ec1789c40c23"
         },
         "32bit": {
-            "url": "https://sourceforge.net/projects/unikey/files/unikey-win/4.3%20RC4/unikey43RC4-180714-win32.zip",
+            "url": "https://sourceforge.net/projects/unikey/files/unikey-win/4.3%20RC5/unikey43RC5-200929-win32.zip",
             "hash": "930d8792166ad216db22701f5b5f407076817784c5d8ba1e3ff5383f77efadb4 "
         }
     },  
